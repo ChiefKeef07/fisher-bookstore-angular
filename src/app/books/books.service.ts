@@ -13,5 +13,4 @@ export class BooksService {
   getBooks(): Observable<IBook[]> {
     return this._http.get<IBook[]>(this.booksUrl);
   }
-  //test
 }
